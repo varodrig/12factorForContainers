@@ -1,7 +1,7 @@
 The Twelve Factors
 ==================
 
-## [I. Architecture](./architecture)
+## [I. Containerized Architecture](./architecture)
 ### One business application per repository. 
 
 ## [II. Config](./config)
@@ -18,4 +18,3 @@ The Twelve Factors
 
 ## [VI. Security](./security)
 ### 
-
