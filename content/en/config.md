@@ -31,7 +31,7 @@ Which one is best?
 
 - Non-sensitive, Sensitive vs Data Security
 
-Sensitive data can include
+Sensitive data can include:
 
 Data Security will be related with credentials, urls and any data related with 
 
