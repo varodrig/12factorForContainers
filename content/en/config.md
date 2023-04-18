@@ -14,7 +14,7 @@ This includes:
 Apps sometimes store config as constants in the code.  This is a violation of twelve-factor, which requires **strict separation of config from code**.  Config varies substantially across deploys, code does not.
 
 Config separated from the source code* 
-Configurations should be separated from the source code and it will not be packaged with the application artifact. Configurations will be based on different environments such as the `development`, `test`, and `production` environments.
+Configurations should be separated from the source code and it will not be packaged with the application artifact. Configurations will be based on different environments such as the `development`, `test`, `staging` and `production` environments.
 
 ### Different storage mechanisms for different type of data
 
