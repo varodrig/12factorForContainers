@@ -1,20 +1,21 @@
 The Twelve Factors
 ==================
 
-## [I. Containerized Architecture](./architecture)
+## [I. Security](./security)
+### Security considerations
+
+## [II. Containerized Architecture](./architecture)
 ### One business application per repository. 
 
-## [II. Config](./config)
-### Store config in the environment
+## [III. Config](./config)
+### Manage configurations independently from the source code
 
-## [III. Build, release, run](./build-release-run)
-### Strictly separate build and run stages
+## [IV. Build and deployment](./build-release-run)
+### One container image in all environments
 
-## [IV. Disposability](./disposability)
-### Maximize robustness with fast startup and graceful shutdown
+## [V. Scalability](./disposability)
+### Scalable applications using fast startup and graceful shutdown
 
-## [V. Logs](./logs)
+## [VI. Logs](./logs)
 ### Treat logs as event streams
 
-## [VI. Security](./security)
-### 

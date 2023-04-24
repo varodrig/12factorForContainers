@@ -11,7 +11,7 @@ This includes:
 * Routes and ports to connect to third party systems or any backend or services.
 * You will NOT manage customer data in your configurations. 
 
-Apps sometimes store config as constants in the code.  This is a violation of twelve-factor, which requires **strict separation of config from code**.  Config varies substantially across deploys, code does not.
+Apps sometimes store config as constants in the code. This is a violation of these principles, which requires **strict separation of config from code**.  Config varies substantially across deploys, code does not.
 
 Config separated from the source code* 
 Configurations should be separated from the source code and it will not be packaged with the application artifact. Configurations will be based on different environments such as the `development`, `test`, `staging` and `production` environments.
@@ -25,13 +25,12 @@ Which one is best?
 
 - Env variables can be allocated in different deployment files that can be read at runtime by your container. 
 
-* Security and Compliance considerations:
-
 - Consider the different type of data you will be managing in your configurations:
 
-- Non-sensitive, Sensitive vs Data Security
+Secure data:
 
-Sensitive data can include:
+Data Security will be related with credentials, urls and any data related to authentication mechanisms. For example, connecting to another system. This data will be allocated in a security mechanisms defined by your enterprise.
 
-Data Security will be related with credentials, urls and any data related with 
+Non-sensitive data:
 
+Can include a variable that your application requires to be functional. In this can be allocated into a standard mechanism.
